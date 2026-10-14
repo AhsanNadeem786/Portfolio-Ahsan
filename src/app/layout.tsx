@@ -19,7 +19,7 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "M Shahrooz Altaf | WEB Developer",
+  title: "Ahsan Nadeem | WEB Developer",
   description: "A web developer and problem solver.",
 };
 

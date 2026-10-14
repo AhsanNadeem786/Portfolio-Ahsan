@@ -15,7 +15,7 @@ const WorkPage = () => {
             <div className='text-center flex w-full flex-col lg:text-left mb-4 mx-auto xl:mb-0 xl:mx-0'>
                 <motion.h2 variants={fadeIn('up', 0.3)} initial={"hidden"} animate={"show"} exit={"hidden"} className='h2 xl:mt-8 mb-0'>My Work<span className='text-accent'>.</span></motion.h2>
                 <motion.em variants={fadeIn('up', 0.4)} initial={"hidden"} animate={"show"} exit={"hidden"} className='text-xs lg:text-base' >
-                Hello! I&apos;m a seasoned full-stack developer with a passion for crafting high-quality, responsive web applications. With extensive experience in both front-end and back-end technologies, I can bring your project to life with a seamless user experience and robust functionality.
+               Hello! I am a passionate Full-Stack Developer dedicated to building high-quality, responsive, and user-friendly web applications. With hands-on experience in modern front-end and back-end technologies, including Next.js, React, TypeScript, Tailwind CSS, Prisma, and PostgreSQL, I focus on developing scalable solutions with clean code, reliable functionality, and seamless user experiences. I enjoy solving complex problems and transforming ideas into practical digital products.
                 </motion.em>
             </div>
             <motion.div variants={fadeIn('down', 0.6)} initial={"hidden"} animate={"show"} exit={"hidden"}  className='w-full xl:max-w-[65%] ' style={{zIndex:11}}>

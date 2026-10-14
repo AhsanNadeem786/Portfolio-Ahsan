@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-6 gap-2 max-w-3xl mx-auto">
           {/* Email */}
           <a
-            href="mailto:shahroozdeveloper@gmail.com"
+            href="mailto:ahsannadeemofficial215@gmail.com"
             className="flex flex-col items-center gap-4 p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:border-accent/50 hover:bg-white/10 transition-all group"
           >
             <div className="sm:w-16 sm:h-16 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center text-accent group-hover:bg-accent/30 group-hover:scale-110 transition-all">
@@ -28,14 +28,14 @@ const Contact = () => {
             <div className="text-center">
               <div className="text-white font-semibold text-lg mb-1">Email</div>
               <div className="text-white/60 text-sm break-all">
-                shahroozdeveloper@gmail.com
+                ahsannadeemofficial215@gmail.com
               </div>
             </div>
           </a>
 
           {/* Phone */}
           <a
-            href="tel:+923020004969"
+            href="tel:+923164744514"
             className="flex flex-col items-center gap-4 p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:border-accent/50 hover:bg-white/10 transition-all group"
           >
             <div className="sm:w-16 sm:h-16 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center text-accent group-hover:bg-accent/30 group-hover:scale-110 transition-all">
@@ -55,13 +55,13 @@ const Contact = () => {
             </div>
             <div className="text-center">
               <div className="text-white font-semibold text-lg mb-1">Phone</div>
-              <div className="text-white/60 text-sm">+92 302 0004969</div>
+              <div className="text-white/60 text-sm">+92 316 474 4514</div>
             </div>
           </a>
 
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/m-shahrooz-altaf-dev"
+            href="https://www.linkedin.com/in/ahsan-nadeem-offical/?isSelfProfile=true"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center gap-4 p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:border-accent/50 hover:bg-white/10 transition-all group"

@@ -1,112 +1,112 @@
 import Icon from '@/components/icons/Icon'
 import { Navbartype } from '@/types/types'
-export const navData:Navbartype[]=[
-    {name:'Home',path:'/',icon:<Icon name='HomeIcon'/>},
-    {name:'About',path:'/about',icon:<Icon name='userIcon'/>},
-    {name:'Services',path:'/services',icon:<Icon name='servicesIcon'/>},
-    {name:'Work',path:'/work',icon:<Icon name='workicon'/>},
-    {name:'Testimonials',path:'/testimonials',icon:<Icon name='testimonials'/>},
-    {name:'Contact',path:'/contact',icon:<Icon name='contactIcon'/>}
+export const navData: Navbartype[] = [
+  { name: 'Home', path: '/', icon: <Icon name='HomeIcon' /> },
+  { name: 'About', path: '/about', icon: <Icon name='userIcon' /> },
+  { name: 'Services', path: '/services', icon: <Icon name='servicesIcon' /> },
+  { name: 'Work', path: '/work', icon: <Icon name='workicon' /> },
+  { name: 'Testimonials', path: '/testimonials', icon: <Icon name='testimonials' /> },
+  { name: 'Contact', path: '/contact', icon: <Icon name='contactIcon' /> }
 ]
 
-export const aboutSectionList=[
-{title:"Skills", subTitle:[{subT:"Web Developer (Front End)",icon:["htmlIcon","cssIcon","jsIcon","reactIcon","nextJsIcon","vueJsIcon","tanstackQueryIcon","reduxIcon"]},{subT:"Web Developer (Back End)",icon:["nodeJsIcon","expressJsIcon","nestJs","postgreSqlIcon","mongoDBIcon","prismaIcon"]}]}, 
-// {title:"Certificates",subTitle:"Web Developer Diploma", stage:"2011"}, 
-{title:"Experience", subTitle:[{subT:"Web Developer",insti:" Crexed",stage:"2023 - 2025"},{subT:"Front End Team Leader",insti:" Crexed",stage:"2025 - Present"}]},
- {title:"Credentials", subTitle:[{subT:"Web Developer Diploma",insti:"Islamia University BWP",stage:'2026'},{subT:"Google IT Automation with Python",insti:"Google",stage:'2023'},{subT:"BS Computer Science",insti:"Virtual University Pakistan",stage:'2024'}]}
+export const aboutSectionList = [
+  { title: "Skills", subTitle: [{ subT: "Web Developer (Front End)", icon: ["htmlIcon", "cssIcon", "jsIcon", "reactIcon", "nextJsIcon", "vueJsIcon", "tanstackQueryIcon", "reduxIcon"] }, { subT: "Web Developer (Back End)", icon: ["nodeJsIcon", "expressJsIcon", "nestJs", "postgreSqlIcon", "mongoDBIcon", "prismaIcon"] }] },
+  // {title:"Certificates",subTitle:"Web Developer Diploma", stage:"2011"}, 
+  { title: "Experience", subTitle: [{ subT: "Web Developer", insti: " Crexed", stage: "2023 - 2025" }, { subT: "Front End Team Leader", insti: " Crexed", stage: "2025 - Present" }] },
+  { title: "Credentials", subTitle: [{ subT: "Web Developer Diploma", insti: "Islamia University BWP", stage: '2026' }, { subT: "Google IT Automation with Python", insti: "Google", stage: '2023' }, { subT: "BS Computer Science", insti: "Virtual University Pakistan", stage: '2024' }] }
 ]
 
-export const services=[
-      {
-        "name": "Frontend Development",
-        "description": "Building responsive and interactive user interfaces using HTML, CSS, JavaScript, and modern frameworks like React, Nextjs, Vue, or Angular.",
-        "icon": "🌐"
-      },
-      {
-        "name": "Backend Development",
-        "description": "Creating robust server-side applications and APIs using Node.js, Express, Nest.js, or other backend technologies.",
-        "icon": "🖥️"
-      },
-      {
-        "name": "Full Stack Development",
-        "description": "Combining frontend and backend development skills to build complete web applications from scratch.",
-        "icon": "🔄"
-      },
-      {
-        "name": "UI/UX Design",
-        "description": "Designing intuitive and visually appealing user interfaces and experiences using tools like Figma, Sketch, or Adobe XD.",
-        "icon": "🎨"
-      },
-      {
-        "name": "E-commerce Development",
-        "description": "Developing online stores with features like product listings, shopping carts, payment gateways, and order management.",
-        "icon": "🛒"
-      },
-      {
-        "name": "Content Management Systems",
-        "description": "Implementing and customizing CMS platforms like WordPress, Joomla, or Drupal for easy content management.",
-        "icon": "📋"
-      },
-      {
-        "name": "Search Engine Optimization (SEO)",
-        "description": "Optimizing websites for better search engine rankings and increased organic traffic.",
-        "icon": "🔍"
-      },
-      {
-        "name": "Web Hosting and Maintenance",
-        "description": "Providing web hosting solutions and ongoing maintenance to ensure websites are secure, fast, and up-to-date.",
-        "icon": "🛠️"
-      },
-      {
-        "name": "Web Performance Optimization",
-        "description": "Enhancing website speed and performance through techniques like image optimization, code minification, and caching.",
-        "icon": "⚡"
-      },
-      {
-        "name": "API Development and Integration",
-        "description": "Creating and integrating APIs to enable seamless data exchange between different systems and services.",
-        "icon": "🔗"
-      },
-      {
-        "name": "Bug Fixing",
-        "description": "Identifying, diagnosing, and resolving bugs and issues in web applications to ensure smooth functionality.",
-        "icon": "🔧"
-      },
-      {
-        "name": "WordPress Development",
-        "description": "Developing and customizing websites using WordPress to meet various business needs.",
-        "icon": "🌍"
-      },
-      {
-        "name": "All Types of Websites",
-        "description": "Creating websites for blogs, portfolios, business sites, landing pages, and more.",
-        "icon": "🌎"
-      }
-    ]
+export const services = [
+  {
+    "name": "Frontend Development",
+    "description": "Building responsive and interactive user interfaces using HTML, CSS, JavaScript, and modern frameworks like React, Nextjs, Vue, or Angular.",
+    "icon": "🌐"
+  },
+  {
+    "name": "Backend Development",
+    "description": "Creating robust server-side applications and APIs using Node.js, Express, Nest.js, or other backend technologies.",
+    "icon": "🖥️"
+  },
+  {
+    "name": "Full Stack Development",
+    "description": "Combining frontend and backend development skills to build complete web applications from scratch.",
+    "icon": "🔄"
+  },
+  {
+    "name": "UI/UX Design",
+    "description": "Designing intuitive and visually appealing user interfaces and experiences using tools like Figma, Sketch, or Adobe XD.",
+    "icon": "🎨"
+  },
+  {
+    "name": "E-commerce Development",
+    "description": "Developing online stores with features like product listings, shopping carts, payment gateways, and order management.",
+    "icon": "🛒"
+  },
+  {
+    "name": "Content Management Systems",
+    "description": "Implementing and customizing CMS platforms like WordPress, Joomla, or Drupal for easy content management.",
+    "icon": "📋"
+  },
+  {
+    "name": "Search Engine Optimization (SEO)",
+    "description": "Optimizing websites for better search engine rankings and increased organic traffic.",
+    "icon": "🔍"
+  },
+  {
+    "name": "Web Hosting and Maintenance",
+    "description": "Providing web hosting solutions and ongoing maintenance to ensure websites are secure, fast, and up-to-date.",
+    "icon": "🛠️"
+  },
+  {
+    "name": "Web Performance Optimization",
+    "description": "Enhancing website speed and performance through techniques like image optimization, code minification, and caching.",
+    "icon": "⚡"
+  },
+  {
+    "name": "API Development and Integration",
+    "description": "Creating and integrating APIs to enable seamless data exchange between different systems and services.",
+    "icon": "🔗"
+  },
+  {
+    "name": "Bug Fixing",
+    "description": "Identifying, diagnosing, and resolving bugs and issues in web applications to ensure smooth functionality.",
+    "icon": "🔧"
+  },
+  {
+    "name": "WordPress Development",
+    "description": "Developing and customizing websites using WordPress to meet various business needs.",
+    "icon": "🌍"
+  },
+  {
+    "name": "All Types of Websites",
+    "description": "Creating websites for blogs, portfolios, business sites, landing pages, and more.",
+    "icon": "🌎"
+  }
+]
 
 export const projects = [
   {
-    title: "Ed-Cred – Educational Review & Feedback Platform",
-    description: "A comprehensive platform for collecting and managing educational feedback and reviews, enabling transparent communication between students, educators, and institutions.",
-    overview: "Ed-Cred revolutionizes the educational feedback ecosystem by providing a transparent, secure, and user-friendly platform where students can share authentic reviews about their educational experiences. The platform bridges the gap between students, educators, and institutions, fostering accountability and continuous improvement in education.",
-    techStack: "React, Node.js, Express, MongoDB, JWT Authentication, Socket.io, Redis",
-    features: "User authentication & authorization, Review submission with moderation workflow, Multi-level rating system (course, instructor, institution), Advanced admin dashboard with analytics, Real-time notifications, Review verification system, Sentiment analysis, Export reports in PDF/Excel",
-    problemSolved: "Lack of transparent feedback in education",
-    challenges: "Implementing a robust moderation system to prevent spam and fake reviews | Ensuring data privacy while maintaining transparency | Building a scalable architecture to handle thousands of concurrent users | Creating an intuitive UX for diverse user groups (students, teachers, admins) | Preventing review manipulation and ensuring authenticity | Managing real-time notifications without performance degradation",
-    solution: "Developed a multi-tier moderation system with AI-powered spam detection using natural language processing | Implemented role-based access control with JWT tokens and encrypted sensitive data with AES-256 | Used Redis for caching frequently accessed data and Socket.io for real-time updates, implemented horizontal scaling with load balancers | Conducted extensive user testing with focus groups from different educational backgrounds and created role-specific dashboards | Built a verification system requiring email confirmation and implemented rate limiting to prevent abuse | Optimized Socket.io connections with room-based broadcasting and implemented notification queuing",
-    impact: "Increased student engagement by 75%, Helped 50+ institutions improve their course quality, Processed over 10,000 verified reviews in the first 6 months, Reduced feedback processing time from weeks to hours",
-    duration: "1 month",
-    team: "4 developers, 1 UI/UX designer, 1 project manager",
-    role: "Full Stack Developer - Led backend architecture and API development",
+    title: "World Atlas – Explore Countries Around the World",
+    description: "An interactive country exploration platform that allows users to discover countries and explore geographical information through a clean and user-friendly interface.",
+    overview: "World Atlas is a web application designed to make exploring countries and geographical information simple and accessible. It provides an organized browsing experience for users to discover countries and learn more about the world through an intuitive interface.",
+    techStack: "React, JavaScript, HTML5, CSS3, REST Countries API",
+    features: "Country search functionality, Country listing and exploration, Detailed country information, Interactive browsing experience, Responsive user interface, Organized presentation of geographical data",
+    problemSolved: "Makes country-related information easier to discover and explore through a centralized and user-friendly web application.",
+    challenges: "Displaying country data in a clear and organized format | Making country information easy to find | Creating a responsive interface for different screen sizes | Managing and presenting data from an external API",
+    solution: "Developed a structured interface for browsing country information | Implemented a user-friendly country exploration experience | Organized geographical data for easier readability | Designed a responsive layout for desktop, tablet, and mobile devices",
+    impact: "Provides an accessible and convenient way to explore country information while demonstrating practical skills in frontend development, API integration, and responsive web design.",
+    duration: "Update with your actual project duration",
+    team: "Personal Project",
+    role: "Frontend Developer",
     screenshots: ['/work/ed-cred1.png', '/work/ed-cred2.png', '/work/ed-cred3.png', '/work/ed-cred4.png']
   },
   {
-    title: "Chatbot – Full-Stack Web Application",
-    description: "A sophisticated chatbot system designed for interactive and scalable web-based communication with AI-powered responses and conversation management.",
-    overview: "An enterprise-grade chatbot solution that leverages cutting-edge AI technology to provide intelligent, context-aware conversations. The system supports multiple conversation threads, learns from interactions, and integrates seamlessly with existing business workflows.",
-    techStack: "Next.js, TypeScript, OpenAI API, PostgreSQL, Prisma ORM, Redis, WebSocket, Docker",
-    features: "Real-time chat interface with typing indicators, AI-powered responses with context retention, Conversation history and search, Multi-user support with session management, Context-aware conversations, File upload and processing, Custom training on business data, Analytics dashboard, API for third-party integrations",
-    problemSolved: "Lack of fast, interactive, and scalable web-based chatbot systems",
+    title: "Movie Search App – Real-time Movie Database Search Application",
+    description: "A sophisticated movie search application designed for interactive and scalable web-based movie discovery with real-time database search capabilities.",
+    overview: "A modern movie search platform that provides users with a seamless experience for discovering and exploring movies in real-time. The application features a responsive design, advanced search filters, and integration with popular movie databases.",
+    techStack: "Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma ORM, Redis, Docker",
+    features: "Real-time movie search with instant results, Advanced filtering and sorting options, User-friendly interface with responsive design, Integration with external movie APIs, Personalized recommendations based on user preferences, Bookmarking and watchlist functionality, Analytics dashboard for tracking user engagement",
+    problemSolved: "Lack of fast, interactive, and scalable web-based movie search systems",
     challenges: "Managing conversation context across multiple sessions without losing coherence | Optimizing API costs while maintaining response quality | Handling concurrent users without performance degradation | Implementing secure data handling for sensitive conversations | Reducing response latency for real-time experience | Preventing context window overflow with long conversations",
     solution: "Implemented intelligent context windowing to optimize token usage, storing conversation summaries in PostgreSQL and using vector embeddings for semantic search | Used Redis for session management and response caching, implemented token counting and dynamic context pruning | Built a queue system with Bull for handling high-traffic periods and implemented WebSocket connection pooling | Encrypted all conversations end-to-end with AES-256 and implemented secure file upload with virus scanning | Optimized API calls with streaming responses and implemented predictive pre-loading of likely responses | Developed a sliding window algorithm that maintains relevant context while discarding older messages",
     impact: "Reduced customer support response time by 60%, Handled 50,000+ conversations monthly, Achieved 95% user satisfaction rate, Saved $30,000 annually in support costs",
@@ -116,18 +116,18 @@ export const projects = [
     screenshots: ['/work/chatbot1.png', '/work/chatbot2.png', '/work/chatbot3.png', '/work/chatbot4.png']
   },
   {
-    title: "Gurus Online – International Mandarin Learning Platform",
-    description: "An online platform to learn Mandarin with structured courses, interactive lessons, and personalized guidance from native speakers.",
-    overview: "Gurus Online transforms Mandarin language learning through an immersive, interactive platform that connects students worldwide with native Mandarin speakers. The platform combines structured curriculum with live tutoring, gamification, and progress tracking to create an engaging learning experience.",
-    techStack: "Vue.js, Node.js, Express, MongoDB, Socket.io, WebRTC, AWS S3, Stripe",
-    features: "HD video lessons with subtitles, Interactive exercises with speech recognition, Real-time progress tracking and analytics, Live tutoring sessions with screen sharing, Gamification with badges and leaderboards, Certificate generation upon completion, Mobile-responsive design, Payment integration for premium courses",
-    problemSolved: "Difficulty in accessing structured Mandarin learning resources",
-    challenges: "Implementing reliable video streaming for global users with varying internet speeds | Building speech recognition for Mandarin pronunciation with tonal accuracy | Scheduling system across multiple time zones for live sessions | Ensuring low latency for live tutoring sessions | Handling large video file storage and delivery | Synchronizing real-time collaboration features during live classes",
-    solution: "Used AWS CloudFront CDN for video delivery with adaptive bitrate streaming and implemented video compression with H.264 codec | Integrated Google Speech API with custom Mandarin models and trained on tonal variations, implemented visual feedback for pronunciation | Built a smart scheduling algorithm considering time zones with automatic conversion and conflict detection | Implemented WebRTC with TURN/STUN servers for NAT traversal and fallback mechanisms for poor connections | Stored videos on AWS S3 with lifecycle policies for cost optimization and implemented progressive video loading | Used Socket.io for real-time whiteboard collaboration and implemented operational transformation for concurrent editing",
-    impact: "Onboarded 5,000+ students from 30+ countries, Achieved 85% course completion rate, Generated $200,000 in revenue in first year, Partnered with 50+ certified Mandarin tutors",
-    duration: "1 month",
-    team: "5 developers, 2 UI/UX designers, 1 content creator",
-    role: "Frontend Team Lead - Led Vue.js development and video streaming implementation",
+    title: "HowSquare – Blogging & Content Sharing Platform",
+    description: "A web-based blogging platform that allows users to explore articles, read content, and engage with posts through an interactive and user-friendly interface.",
+    overview: "HowSquare is a content-sharing web application built to provide readers with an accessible platform for discovering blog posts and engaging with content. It focuses on organized article presentation, user interaction, and a smooth browsing experience, with dedicated pages that help users navigate the platform and contact the website team.",
+    techStack: "Next.js, React, Tailwind CSS, MongoDB, Mongoose, JavaScript",
+    features: "Blog post browsing, Dedicated writer profiles, User registration and sign-in, Article and content management, Comment functionality, Responsive user interface, Contact page for user inquiries",
+    problemSolved: "Provides a centralized platform for publishing, discovering, and engaging with written content through a simple and accessible web experience.",
+    challenges: "Managing user accounts and authentication | Organizing blog content and writer profiles | Handling comments and user interactions | Connecting application data with MongoDB | Creating a responsive and intuitive interface",
+    solution: "Developed a component-based web interface using Next.js and React | Used MongoDB and Mongoose for data management | Organized writer profiles and blog-related pages | Implemented user authentication and comment functionality | Designed responsive layouts for different screen sizes",
+    impact: "Demonstrates practical full-stack web development skills, including database integration, user authentication, content organization, and interactive web application development.",
+    duration: "Update with your actual project duration",
+    team: "Personal Project",
+    role: "Full Stack Developer",
     screenshots: ['/work/guru1.png', '/work/guru2.png', '/work/guru3.png', '/work/guru4.png']
   },
   {
@@ -146,18 +146,18 @@ export const projects = [
     screenshots: ['/work/hospital1.png', '/work/hospital2.png', '/work/hospital3.png']
   },
   {
-    title: "Play Now – Sports Ground Booking Platform",
-    description: "A platform to find and book sports grounds easily with real-time availability and secure payment processing.",
-    overview: "Play Now simplifies sports ground booking by connecting venue owners with players and teams. The platform offers real-time availability, instant booking confirmation, and integrated payment processing, making it effortless to organize sports activities.",
-    techStack: "React, Node.js, Express, PostgreSQL, Stripe, Google Maps API, Redis, AWS",
-    features: "Advanced ground search with filters (location, sport, price, amenities), Real-time availability calendar, Instant booking with confirmation, Secure payment processing with Stripe, User reviews and ratings, Venue owner dashboard, Booking management and history, Push notifications for bookings, Google Maps integration, Cancellation and refund system",
-    problemSolved: "Difficulty in finding and booking sports grounds",
-    challenges: "Preventing double bookings in high-traffic scenarios with race conditions | Handling payment disputes and refunds efficiently | Building a fair review system that prevents fake reviews | Optimizing search for location-based queries with large datasets | Managing time zone differences for bookings | Implementing dynamic pricing based on demand",
-    solution: "Implemented database-level locking with PostgreSQL row-level locks and pessimistic locking for booking transactions, used Redis distributed locks for additional safety | Created automated refund workflow with Stripe webhooks and implemented dispute resolution system with evidence collection | Built verified booking review system (only after event completion) with photo upload requirement and ML-based fake review detection | Used PostGIS for efficient geospatial queries with spatial indexing and implemented caching layer with Redis for popular searches | Stored all times in UTC and converted to user's local timezone on frontend, implemented timezone-aware calendar views | Built demand prediction algorithm using historical data and implemented surge pricing with transparent user notifications",
-    impact: "Facilitated 10,000+ bookings in first year, Partnered with 200+ sports venues, Achieved 4.8/5 average rating, Processed $500,000 in transactions",
-    duration: "1 month",
-    team: "4 developers, 1 designer",
-    role: "Backend Developer - Built booking engine and payment integration",
+    title: "ShopEase – E-commerce Shopping Platform",
+    description: "A modern e-commerce platform that enables users to browse products, explore product details, add items to their shopping cart, and place orders through a convenient online shopping experience.",
+    overview: "ShopEase is a web-based e-commerce application designed to simplify online shopping by providing an intuitive interface for product discovery and order management. The platform focuses on a smooth shopping experience, organized product listings, and responsive design across desktop and mobile devices.",
+    techStack: "Next.js, React, JavaScript, Tailwind CSS, Node.js, MongoDB",
+    features: "Product listing and browsing, Product detail pages, Product search and filtering, Shopping cart management, Add-to-cart functionality, Checkout and order placement, Responsive user interface, Product categories, User-friendly navigation, Order management",
+    problemSolved: "Simplifies online shopping by bringing product discovery, cart management, and order placement together in one accessible platform.",
+    challenges: "Managing product data and categories efficiently | Maintaining accurate cart quantities and totals | Creating a smooth checkout experience | Designing responsive layouts for different devices | Handling application state and user interactions efficiently",
+    solution: "Built reusable components for product listings and details | Implemented cart functionality to manage selected products and quantities | Organized products into categories for easier browsing | Designed a responsive interface using modern frontend technologies | Structured the application to support maintainable and scalable development",
+    impact: "Demonstrates practical skills in e-commerce development, product catalog design, shopping cart functionality, responsive UI development, and building user-friendly online shopping experiences.",
+    duration: "Update with your actual project duration",
+    team: "Personal Project",
+    role: "Full Stack Developer",
     screenshots: ['/work/pitchgo1.png']
   },
   {
@@ -207,12 +207,12 @@ export const projects = [
   }
 ];
 
-export const workImages=[
-  {imgs:['/work/chatbot3.png','/work/ed-cred1.png','/work/guru1.png','/work/hospital1.png'], projectIndexes: [1, 0, 2, 3]},
-  {imgs:['/work/pitchgo1.png','/work/myeq360.png','/work/soulsun1.png','/work/learntostrut-Before.png'], projectIndexes: [4, 5, 6, 7]},
+export const workImages = [
+  { imgs: ['/work/chatbot3.png', '/work/ed-cred1.png', '/work/guru1.png', '/work/hospital1.png'], projectIndexes: [1, 0, 2, 3] },
+  { imgs: ['/work/pitchgo1.png', '/work/myeq360.png', '/work/soulsun1.png', '/work/learntostrut-Before.png'], projectIndexes: [4, 5, 6, 7] },
 ]
 
-export const testimonials=[
+export const testimonials = [
   {
     name: "Sarah Johnson",
     position: "CEO, TechStart Inc.",
@@ -275,4 +275,3 @@ export const testimonials=[
   }
 ]
 
-  
